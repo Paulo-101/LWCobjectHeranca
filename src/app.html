@@ -1,0 +1,23 @@
+<template>
+  <lightning-card title="Atividade">
+    <div class="slds-m-around_medium">
+      <h1 class="slds-text-heading_large">{nome.primeiroNome} {nome.sobrenome}</h1>
+      <p>idade: {idade}</p>
+      <p>E-mail: {email}</p>
+      <p>Classificação: {classificacao}</p>
+      <p>Empresa: {empresa}</p>
+      <p>Receita Anual: {receitaAnual}</p>
+
+
+
+      <h1 class="slds-text-heading_large">Oportunidades da Conta</h1>
+      <c-child id=1 nome='Neo' valor='80000' fase='prospecting'></c-child>
+      <c-child id=2 nome='Aang' valor='800000' fase='Closed - Won'></c-child>
+      <c-child id=3 nome='Gandalf' valor='200000' fase='Uma mago não se atrasa e nem se adianta'></c-child>
+      <c-child id=4 nome='Frodo' valor='10000' fase='prospecting'></c-child>
+      <c-child id=5 nome='Voldemort' valor='1000000' fase='Closed -'></c-child>
+
+
+    </div>
+  </lightning-card>
+</template>
